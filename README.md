@@ -66,21 +66,9 @@ This project demonstrates a **production-ready data warehouse solution** that tr
 
 ## 🏗️ Data Architecture
 
-Our solution follows the **Medallion Architecture** pattern, ensuring scalability and maintainability:
+The data architecture for this project follows Medallion Architecture **Bronze**, **Silver**, and **Gold** layers:
+![Data Architecture](docs/data_architecture.png)
 
-```mermaid
-graph LR
-    A[CSV Files] --> B[Bronze Layer]
-    B --> C[Silver Layer]
-    C --> D[Gold Layer]
-    D --> E[Analytics & BI]
-    
-    B -.-> B1[Raw Data Storage]
-    C -.-> C1[Data Cleansing]
-    C -.-> C2[Standardization]
-    D -.-> D1[Star Schema]
-    D -.-> D2[Business Logic]
-```
 
 | Layer | Purpose | Technologies |
 |-------|---------|--------------|
