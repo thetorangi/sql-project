@@ -132,15 +132,15 @@ The data architecture for this project follows Medallion Architecture **Bronze**
 3. **Load Sample Data**
    ```sql
    -- Run bronze layer scripts
-   EXEC scripts/bronze/01_create_tables.sql
-   EXEC scripts/bronze/02_load_data.sql
+   EXEC scripts/bronze/dll_bronze.sql
+   EXEC scripts/bronze/proc_bronze.sql
    ```
 
 4. **Build the Warehouse**
    ```sql
    -- Execute silver and gold layer transformations
-   EXEC scripts/silver/transform_data.sql
-   EXEC scripts/gold/create_star_schema.sql
+   EXEC scripts/silver/dll_silver.sql
+   EXEC scripts/gold/proc_silver.sql
    ```
 
 5. **Verify Setup**
