@@ -224,7 +224,6 @@ Our documentation is comprehensive and designed for both technical and business 
 | [🏗️ Architecture Guide](docs/data_architecture.drawio) | Technical | System design and data flow |
 | [📊 Data Models](docs/data_models.drawio) | Analysts | Star schema and relationships |
 | [🏷️ Naming Conventions](docs/naming_conventions.md) | Developers | Coding standards and guidelines |
-| [📝 Requirements](docs/requirements.md) | Business | Functional and technical specifications |
 
 ---
 
