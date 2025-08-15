@@ -149,7 +149,7 @@ The data architecture for this project follows Medallion Architecture **Bronze**
    - Review documentation
 
 ### 📖 **Detailed Setup Guide**
-👉 **[Complete Project Walkthrough](#)**
+👉 **[Complete Project Walkthrough](https://nova-pull-24d.notion.site/SQL-Data-Warehouse-Project-24fb2dd7d162804ab775e11d8bffe10e?source=copy_link)**
 
 ---
 
