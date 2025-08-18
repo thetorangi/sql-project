@@ -221,8 +221,8 @@ Our documentation is comprehensive and designed for both technical and business 
 | Document | Audience | Purpose |
 |----------|----------|---------|
 | [📋 Data Catalog](docs/data_catalog.md) | All Users | Complete data dictionary and metadata |
-| [🏗️ Architecture Guide](docs/data_architecture.drawio) | Technical | System design and data flow |
-| [📊 Data Models](docs/data_models.drawio) | Analysts | Star schema and relationships |
+| [🏗️ Architecture Guide](docs/data_architecture.png) | Technical | System design and data flow |
+| [📊 Data Models](docs/data_model.png) | Analysts | Star schema and relationships |
 | [🏷️ Naming Conventions](docs/naming_conventions.md) | Developers | Coding standards and guidelines |
 
 ---
